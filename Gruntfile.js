@@ -62,7 +62,7 @@ module.exports = function (grunt) {
       dist: {
         options: {
           server: {
-            baseDir: "<%= yeoman.dist %>"
+            baseDir: '<%= yeoman.dist %>'
           }
         }
       },
