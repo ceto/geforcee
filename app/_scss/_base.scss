@@ -27,8 +27,11 @@ body {
 	@include bp($s3){
 		font-size: 18px;
 	}
-	@include bp($s5){
+	@include bp($s4){
 		font-size: 20px;
+	}
+	@include bp($s5){
+		font-size: 22px;
 	}
 }
 
@@ -42,19 +45,19 @@ a {
 	@include clearfix();
 	position: relative;
 	margin:0 auto;
-	padding:0 1em;
+	padding:0 0;
 	max-width: $normalmax;
 	@include bp($s1) {
-		padding:0 1em;
+		padding:0 0;
 	}
 	@include bp($s2) {
-		padding:0 2em;
+		padding:0 2rem;
 	}
 	@include bp($s3) {
-		padding:0 3em;
+		padding:0 3rem;
 	}
 	@include bp($s4) {
-		padding:0 4em;
+		padding:0 4rem;
 	}
 }
 
@@ -95,7 +98,14 @@ a {
 	}
 }
 
+figure {
+	img {
+		display: block;
+		margin:0 auto;
+	}
 
+	figcaption {}
+}
 
 
 

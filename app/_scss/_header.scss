@@ -1,0 +1,66 @@
+.siteheader {
+	background-color: $highlight-dark;
+	background-image: linear-gradient(to bottom, $highlight-dark 0, $highlight-light2 100%);
+	color:#fff;
+}
+
+.sitelogo {
+	@include hide-text();
+	display: block;
+	width:25em;
+	height:7.5em;
+	max-width: 90%;
+	background-image: url('../images/logo_big.png');
+	background-size: 100% auto;
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin:1rem .75rem;
+	font-size: 1em;
+
+	@include bp($s2) {
+		margin:2em .75em 2em;
+	} 
+}
+
+
+
+/******** Site Navigation *******/
+.sitenav {
+	margin: .75em .75em;
+}
+.nav--sitenav {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+
+	li {
+		display: inline-block;
+		margin:0 .75rem .125rem 0;
+		> a {
+			display: inline-block;
+			color:#fff;
+			font-size: .75em;
+			line-height: 1;
+			border-bottom: 1px solid transparent;
+			&:hover, &:focus {
+				border-bottom: 1px solid currentColor;
+			}
+		}
+	}
+
+}
+
+
+.areaslist {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+
+	li {
+		display: inline-block;
+		margin:0 .75rem .125rem 0;
+		color:#fff;
+		font-size: .666em;
+		line-height: 1;
+	}
+}

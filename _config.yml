@@ -24,3 +24,8 @@ markdown: redcarpet
 #   extensions: ['fenced_code_blocks', 'smart']
 
 pygments: false
+
+
+excerpt_separator: <!--more-->
+
+baseurl: http://ceto.no-ip.org:3000

@@ -3,7 +3,7 @@ type:	photo
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-06-28 18:48:02
-categories: jekyll update
+categories: [jekyll, update, health, government]
 author:	GEforCEE staff
 figure: http://lorempixel.com/768/640/sports
 figcaption: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.

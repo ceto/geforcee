@@ -1,6 +1,37 @@
 ---
 layout: default
 ---
-<article class="post">
-{{ content }}
+<article class="post post--{{ page.type }} post--single">
+	<div class="wrapper wrapper__wide">
+		<div class="post__inner">
+		<header class="post__header">
+			<div class="post__meta">
+				<time class="post__meta__time">{{ page.date | date_to_string }}</time>
+				<span class="post__meta__author">&nbsp;&middot;&nbsp;<a href="#">{{ page.author }}</a></span>
+				<span class="post__meta__notecount">&nbsp;&middot;&nbsp;<a href="#">{{ page.notecount }}</a></span>
+			</div>
+			<h1 class="post__title">{{ page.title }}</h1>
+			<ul class="post__cats">
+					{% for category in page.categories %}
+					<li class="post__cats__item" post__cats>
+						<a href="/{{category}}/">{{ category }}</a>
+					</li>
+					{% endfor %}
+			</ul>
+		</header>
+		<div class="post__content">
+				{{ content }}		
+		</div>
+		<footer class="post__footer">
+			<time class="post__time">{{ page.date | date_to_string }}</time>
+			<span class="post__notecount">&nbsp;|&nbsp;<a href="#">{{ page.notecount }}</a></span>
+			<div class="post__buttons">
+				<a href="#"><i class="icon icon--share_sm"></i></a>
+				<a href="#"><i class="icon icon--history_sm"></i></a>
+				<a href="#"><i class="icon icon--heart_sm"></i></a>
+			</div>
+		</footer>
+
+	</div>
+	</div>
 </article>
