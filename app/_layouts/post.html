@@ -11,10 +11,10 @@ layout: default
 				<span class="post__meta__notecount">&nbsp;&middot;&nbsp;<a href="#">{{ page.notecount }}</a></span>
 			</div>
 			<h1 class="post__title">{{ page.title }}</h1>
-			<ul class="post__cats">
-					{% for category in page.categories %}
-					<li class="post__cats__item" post__cats>
-						<a href="/{{category}}/">{{ category }}</a>
+			<ul class="post__tags">
+					{% for tag in page.categories %}
+					<li class="post__tags__item">
+						<a href="/{{tag}}/">{{ tag }}</a>
 					</li>
 					{% endfor %}
 			</ul>
@@ -27,7 +27,7 @@ layout: default
 			<span class="post__notecount">&nbsp;|&nbsp;<a href="#">{{ page.notecount }}</a></span>
 			<div class="post__buttons">
 				<a href="#"><i class="icon icon--share_sm"></i></a>
-				<a href="#"><i class="icon icon--history_sm"></i></a>
+				<a href="#"><i class="icon icon--sync_lg"></i></a>
 				<a href="#"><i class="icon icon--heart_sm"></i></a>
 			</div>
 		</footer>

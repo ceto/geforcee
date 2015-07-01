@@ -1,4 +1,5 @@
 .home__posts {
+	@include clearfix();
 	@include bp($s2) {
 	}
 }
@@ -39,12 +40,12 @@
 	margin-top:.5em;
 }
 
-.post__cats {
+.post__tags {
 	list-style-type: none;
 	margin:1em 0;
 	padding:0;
 
-	.post__cats__item {
+	.post__tags__item {
 		display: inline-block;
 		margin:.25em;
 		a {

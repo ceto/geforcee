@@ -1,19 +1,19 @@
 ---
 type:	text
 layout: post
-title:  "Aenean lacinia bibendum nulla sed consectetur"
-date:	2013-02-20 17:14:02
+title:  "Title of the nulla sed consectetur"
+date:	2013-11-20 17:14:02
 categories: [Oil & Gas, electronics]
 author:	GEforCEE staff
 notecount: no notes
 ---
-<figure><img src="http://lorempixel.com/480/768/technics" alt="Lorem ipsum"></figure>
+<figure><img src="http://lorempixel.com/768/768/technics" alt="Lorem ipsum"></figure>
 
 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
-<!--more-->
-
 Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla.
+
+<!--more-->
 
 Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.
 

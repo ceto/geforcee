@@ -1,0 +1,19 @@
+.row {
+	@include clearfix();
+}
+
+.col {
+	@include clearfix();
+	padding:.75rem .75rem;
+	@include bp($s1) {
+		float:left;
+		padding:.5rem .5rem;
+	}
+}
+
+
+.col--4 {
+	@include bp($s1) {
+		width:33.333%;
+	}
+}

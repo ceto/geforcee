@@ -1,13 +1,13 @@
 ---
 type:	text
 layout: post
-title:  "Vestibulum id ligula porta felis euismod semper."
-date:	2012-02-20 17:14:02
+title:  "Cum sociis natoque penatibus nascetur ridiculus mus"
+date:	2011-02-20 17:14:02
 categories: [Power & Water, electronics, entertainment, industry, renewable energy]
 author:	GEforCEE staff
 notecount: no notes
 ---
-<figure><img src="http://lorempixel.com/768/480/people" alt="Lorem ipsum"></figure>
+<figure><img src="http://lorempixel.com/768/768/people" alt="Lorem ipsum"></figure>
 
 <!--more-->
 

@@ -1,11 +1,11 @@
 ---
 type:	photo
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-06-28 18:48:02
+title:  "Take a look at the source for this post"
+date:   2012-06-28 18:48:02
 categories: [Healthcare, jekyll, update, health, government]
 author:	GEforCEE staff
-figure: http://lorempixel.com/768/640/sports
+figure: http://lorempixel.com/768/1024/sports
 figcaption: Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 notecount: 2 notes
 ---

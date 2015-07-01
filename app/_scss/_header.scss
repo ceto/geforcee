@@ -51,16 +51,44 @@
 }
 
 
+.areasnav {
+	margin: .75em .75em .25em;
+}
 .areaslist {
+	color:$highlight-light3;
+	@include clearfix();
 	list-style-type: none;
 	margin:0;
 	padding:0;
 
 	li {
-		display: inline-block;
+		display: block;
+		float:left;
 		margin:0 .75rem .125rem 0;
 		color:#fff;
 		font-size: .666em;
 		line-height: 1;
+		text-align: center;
+		width: 7.75em;
+		min-height: 6em;
+		> a {
+			color:$highlight-light3;
+			display: block;
+			&:hover, &:focus {
+				color:#fff;
+			}
+		}
+		
+		i {
+			display: block;
+			//height:1em;
+			font-size: 2em;
+			margin-bottom: .5em;
+		}
+		span {
+			//display: block;
+			//height: 3em;
+		}
+
 	}
 }
