@@ -7,7 +7,7 @@ categories: [Energy Management, electronics, health, environment]
 author:	GEforCEE staff
 notecount: 12 notes
 ---
-<figure><img src="http://lorempixel.com/640/768/technics" alt="Lorem ipsum"></figure>
+<figure><img src="http://lorempixel.com/640/768/technics" width="640" height="768" alt="Lorem ipsum"></figure>
 
 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
 

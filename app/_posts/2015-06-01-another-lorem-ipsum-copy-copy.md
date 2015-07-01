@@ -7,7 +7,7 @@ categories: [Capital, Power & Water, electronics, entertainment, industry, renew
 author:	GEforCEE staff
 notecount: 1 note
 ---
-<figure><img src="http://lorempixel.com/768/480/business" alt="Lorem ipsum"></figure>
+<figure><img src="http://lorempixel.com/768/480/business" width="768" height="480" alt="Lorem ipsum"></figure>
 
 <!--more-->
 

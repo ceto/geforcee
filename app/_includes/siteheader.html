@@ -1,32 +1,40 @@
 <header class="siteheader">
 	<div class="wrapper wrapper--wide">
-		<nav class="sitenav">
-			<ul class="nav nav--sitenav">
-				<li class="active"><a href="#">About Us</a></li>
-				<li><a href="#">Global</a></li>
-				<li><a href="#">CEE</a></li>
-				<li><a href="#">Poland</a></li>
-				<li><a href="#">Czech Republic</a></li>
-				<li><a href="#">Hungary</a></li>
-				<li><a href="#">Romania</a></li>
-				<li><a href="#">SEE</a></li>
-			</ul>
-		</nav>
+
 		<a href="{{ site.baseurl }}" class="sitelogo">
 			GE for CEE	<small>Bringing power to the people in CEE</small>	
 		</a>
-		<nav class="areasnav">
-			<ul class="areaslist">
-				<li><a href="/{{"aviation"}}/"><i class="icon icon--plane_lg"></i><span>Aviation</span></a></li>
-				<li><a href="/{{"capital"}}/"><i class="icon icon--moneydollar_lg"></i><span>Capital</span></a></li>
-				<li><a href="/{{"energy management"}}/"><i class="icon icon--bolt_lg"></i><span>Energy management</span></a></li>
-				<li><a href="/{{"healthcare"}}/"><i class="icon icon--medicalkit_lg"></i><span>Healthcare</span></a></li>
-				<li><a href="/{{"lightning"}}/"><i class="icon icon--lightbulb_lg"></i><span>Lightning</span></a></li>
-				<li><a href="/{{"oil & gas"}}/"><i class="icon icon--alcohol_sm"></i><span>Oil & Gas</span></a></li>
-				<li><a href="/{{"power & water"}}/"><i class="icon icon--batterycharging_lg"></i><span>Power & Water</span></a></li>
-				<li><a href="/{{"global operations center"}}/"><i class="icon icon--record_sm"></i><span>Global Operations Center</span></a></li>
-			</ul>
-		</nav>
+		
+		<label class="navtoggle" for="navtoggle">
+			<i class="icon icon--alignjustify_lg"></i>
+		</label>
+		<input type="checkbox" id="navtoggle" name="navtoggle">
+		<div class="siteheader__tohide">
+			<nav class="sitenav">
+				<ul class="nav nav--sitenav">
+					<li class="active"><a href="#">About Us</a></li>
+					<li><a href="#">Global</a></li>
+					<li><a href="#">CEE</a></li>
+					<li><a href="#">Poland</a></li>
+					<li><a href="#">Czech Republic</a></li>
+					<li><a href="#">Hungary</a></li>
+					<li><a href="#">Romania</a></li>
+					<li><a href="#">SEE</a></li>
+				</ul>
+			</nav>
+			<nav class="areasnav">
+				<ul class="areaslist">
+					<li><a href="/{{"aviation"}}/"><i class="icon icon--plane_lg"></i><span>Aviation</span></a></li>
+					<li><a href="/{{"capital"}}/"><i class="icon icon--moneydollar_lg"></i><span>Capital</span></a></li>
+					<li><a href="/{{"energy management"}}/"><i class="icon icon--bolt_lg"></i><span>Energy management</span></a></li>
+					<li><a href="/{{"healthcare"}}/"><i class="icon icon--medicalkit_lg"></i><span>Healthcare</span></a></li>
+					<li><a href="/{{"lightning"}}/"><i class="icon icon--lightbulb_lg"></i><span>Lightning</span></a></li>
+					<li><a href="/{{"oil & gas"}}/"><i class="icon icon--alcohol_sm"></i><span>Oil & Gas</span></a></li>
+					<li><a href="/{{"power & water"}}/"><i class="icon icon--batterycharging_lg"></i><span>Power & Water</span></a></li>
+					<li><a href="/{{"global operations center"}}/"><i class="icon icon--record_sm"></i><span>Global Operations Center</span></a></li>
+				</ul>
+			</nav>
+		</div>
 
 	</div>
 </header>

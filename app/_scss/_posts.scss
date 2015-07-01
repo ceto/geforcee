@@ -131,10 +131,15 @@
 	@include bp($s2) {
 		width:50%;
 		float:left;
-		max-width: none;
-		margin:0;
-		padding:.5rem;
 		
+		margin:0 auto;
+		padding:.75rem;
+		
+		.js & {
+			float:none;
+			margin:0;
+			max-width: none;
+		}
 	}
 	@include bp($s3) {
 		width:33.333%;
@@ -149,11 +154,13 @@
 	.post__inner {
 		background-color: $prilight;
 		&:hover {
-			background-color: $highlight;
-			color:#fff;
+			background-color: $seclight;
 		}
 		a {
-			color:inherit;
+		 	color:inherit;
+			&:hover, &:focus {
+				color:$highlight;
+			}
 		}
 	}
 

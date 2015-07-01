@@ -7,7 +7,7 @@ categories: [Power & Water, electronics, entertainment, industry, renewable ener
 author:	GEforCEE staff
 notecount: no notes
 ---
-<figure><img src="http://lorempixel.com/768/768/people" alt="Lorem ipsum"></figure>
+<figure><img src="http://lorempixel.com/768/768/people" width="768" height="768" alt="Lorem ipsum"></figure>
 
 <!--more-->
 
