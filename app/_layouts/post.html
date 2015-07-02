@@ -14,7 +14,7 @@ layout: default
 			<ul class="post__tags">
 					{% for tag in page.categories %}
 					<li class="post__tags__item">
-						<a href="/{{tag}}/">{{ tag }}</a>
+						<a href="#">#{{ tag }}</a>
 					</li>
 					{% endfor %}
 			</ul>
@@ -35,3 +35,14 @@ layout: default
 	</div>
 	</div>
 </article>
+
+<section class="related__posts postlist">
+	<div class="wrapper wrapper--wide">
+		<h3 class="related__posts__title">Related posts</h3>
+	  <div class="isotopegrid">
+			{% for post in site.posts %}
+				 {% include posttile.html %}
+			{% endfor %}
+		</div>
+	</div>
+</section>

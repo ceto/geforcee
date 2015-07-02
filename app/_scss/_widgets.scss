@@ -1,69 +1,88 @@
 .topwidgets {
 	//max-width: 30rem;
-	margin:2em auto 2em;
+	margin:1em auto .5em;
 
 	@include bp($s2) {
 		max-width: none;
 	}
 }
 
-
-label {
-	font-size: .75em;
-	line-height: 1;
-	margin-bottom: .333em;
-	padding-left: .75em;
-	display: block;
+form {
+	label {
+		font-size: .75em;
+		line-height: 1;
+		margin-bottom: .333em;
+		padding-left: .75em;
+		display: none;
+}
 }
 .inputwrapper {
 	position: relative;
 	@include clearfix();
+}
 
-	input[type="text"], input[type="email"], input[type="search"], input[type="tel"]  {
-		display: block;
-		width:100%;
-		box-sizing:border-box;
-		background-color: #fff;
-		border:1px solid $secdark;
-		padding:.75em 3.5em .5em .5em;
-		font-size: .875em;
-		line-height: 1;
-		&:focus {
-			border-color: $highlight;
-			outline: none;
-			& + input[type="submit"], & + .btn--submit {
-				background-color: $highlight;
-				border-color:$highlight;
-				color:#fff;
-			}
-		}
-	
-	}
 
-	input[type="submit"], .btn--submit {
-		position: absolute;
-		top:0;
-		right:0;
-		bottom:0;
-		width:3em;
-		display: block;
-		float:right;
-		box-sizing:border-box;
-		border:1px solid $secdark;
-		border-left-color: transparent;
-		background-color: $secdark;
-		padding:.5em .5em .25em;
-		font-size: .875em;
-		line-height: 1;
-		text-align: center;
-		color:$pridark;
-		&:hover, &:focus {
-			background-color: $highlight-dark !important;
-			border-color:$highlight-dark !important;
+input[type="text"], input[type="email"], input[type="search"], input[type="tel"]  {
+	display: block;
+	width:100%;
+	box-sizing:border-box;
+	background-color: #fff;
+	border:1px solid $secdark;
+	padding:.75em 3.5em .5em .5em;
+	font-size: .875em;
+	line-height: 1;
+	&:focus {
+		border-color: $highlight;
+		outline: none;
+		& + input[type="submit"], & + .btn--submit {
+			background-color: $highlight;
+			border-color:$highlight;
 			color:#fff;
 		}
-		i {
-			font-size: 1.5em;
+	}
+
+	.inputwrapper--ondark & {
+		border:1px solid rgba($highlight-light3,.25);
+		background-color: rgba($highlight-dark,.5);
+		&:focus { 
+			border-color: rgba($highlight-light3,.5);
+		}
+	}
+}
+
+input[type="submit"], .btn--submit {
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	width:3em;
+	display: block;
+	float:right;
+	box-sizing:border-box;
+	border:1px solid $secdark;
+	border-left-color: transparent;
+	background-color: $secdark;
+	padding:.5em .5em .25em;
+	font-size: .875em;
+	line-height: 1;
+	text-align: center;
+	color:$pridark;
+	&:hover, &:focus {
+		background-color: $highlight-dark !important;
+		border-color:$highlight-dark !important;
+		color:#fff;
+	}
+	i {
+		font-size: 1.5em;
+	}
+
+	.inputwrapper--ondark & {
+		border:1px solid rgba($highlight-light3,.25);
+		//border-left-color: transparent;
+		background-color: rgba($highlight-dark,.75);
+		color:#fff;
+		&:hover, &:focus {
+			border:1px solid rgba($highlight-light3,.5) !important;
 		}
 	}
 }
@@ -76,11 +95,11 @@ label {
 	padding:0;
 	@include bp($s2) {
 		float:right;
-		margin-top: 1.25em;
+		margin-top: .25em;
 	}
 	li {
 		float:left;
-		margin:0 .25em .5em;
+		margin:0 .2em 0;
 		font-size: 1.75em;
 		line-height: 1;		
 	}

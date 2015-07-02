@@ -5,7 +5,7 @@
 .col {
 	@include clearfix();
 	padding:.75rem .75rem;
-	@include bp($s1) {
+	@include bp($s2) {
 		float:left;
 		padding:.75rem .75rem;
 	}
@@ -13,7 +13,14 @@
 
 
 .col--4 {
-	@include bp($s1) {
+	@include bp($s2) {
 		width:33.333%;
+	}
+}
+
+.hideonmobile {
+	display: none;
+	@include bp($s2) {
+		display: block;
 	}
 }

@@ -28,6 +28,6 @@ pygments: false
 
 excerpt_separator: <!--more-->
 
-baseurl: http://ceto.no-ip.org:3000/
+baseurl: http://ceto.no-ip.org/geforcee/dist/
 
 permalink: /:title.html

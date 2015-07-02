@@ -5,7 +5,19 @@
 }
 .post__inner {
 	@include clearfix();
+	position: relative;
 	padding:0 .75rem;
+	
+	a:not(.post__coverlink) {
+		z-index: 1;
+		position: relative;
+	}
+}
+
+.post__coverlink {
+	position: absolute;
+	left:0;top:0;right:0;bottom:0;
+	z-index: 0;
 }
 
 .post__header {
@@ -128,12 +140,12 @@
 	max-width: 30rem;
 	margin:0 auto;
 
-	@include bp($s2) {
+	@include bp($s1) {
 		width:50%;
 		float:left;
 		
 		margin:0 auto;
-		padding:.75rem;
+		padding:.5rem;
 		
 		.js & {
 			float:none;
@@ -143,6 +155,7 @@
 	}
 	@include bp($s3) {
 		width:33.333%;
+		padding:.75rem;
 	}
 	@include bp($s4) {
 		width:25%;
@@ -195,5 +208,28 @@
 			font-size: 3.25rem;
 		}
 	}
+
+	.post__content {
+		figure {
+			margin:1em auto;
+		}
+	}
+	.post__footer {
+		border-top:1px solid $seclight;
+		margin:2em 0;
+		padding-top: 1em;
+	}
 }
 
+
+
+.related__posts {
+	margin:2em 0 2em;
+	//padding-top: 2em;
+	//border-top:1px solid $seclight;
+}
+
+.related__posts__title {
+	text-align: center;
+	margin-bottom: 3em;
+}

@@ -7,7 +7,9 @@ categories: [Oil & Gas, electronics]
 author:	GEforCEE staff
 notecount: no notes
 ---
-<figure><img src="http://lorempixel.com/480/768/technics" width="480" height="768" alt="Lorem ipsum"></figure>
+<figure>
+	<img src="http://lorempixel.com/480/768/technics" width="480" height="768" alt="Lorem ipsum">
+</figure>
 
 Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
