@@ -44,6 +44,7 @@ input[type="text"], input[type="email"], input[type="search"], input[type="tel"]
 	.inputwrapper--ondark & {
 		border:1px solid rgba($highlight-light3,.25);
 		background-color: rgba($highlight-dark,.5);
+		color:#fff;
 		&:focus { 
 			border-color: rgba($highlight-light3,.5);
 		}

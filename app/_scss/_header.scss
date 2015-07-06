@@ -27,8 +27,10 @@
 .sitelogo {
 	@include hide-text();
 	display: block;
-	width:15em;
+	width:17.666em;
 	height:4em;
+	max-width: 80%;
+	//background-color: red;
 	background-image: url('../img/logo_big.png');
 	background-size: 100% auto;
 	background-position: left top;
@@ -37,7 +39,8 @@
 	font-size: .75em;
 
 	@include bp($s2) {
-		width:25em;
+		max-width: none;
+		width:30.5em;
 		height:6.875em;
 		position: relative;
 		z-index: 1;
@@ -172,7 +175,7 @@
 
 
 .navtoggle, .searchtoggle {
-	margin-left: .25em;
+	margin-left: .5em;
 	display: inline-block;
 	font-size: 1em;
 	line-height: 1;
