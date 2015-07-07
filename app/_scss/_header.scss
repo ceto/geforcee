@@ -27,7 +27,7 @@
 .sitelogo {
 	@include hide-text();
 	display: block;
-	width:17.666em;
+	width:21.666em;
 	height:4em;
 	max-width: 80%;
 	//background-color: red;
@@ -40,7 +40,7 @@
 
 	@include bp($s2) {
 		max-width: none;
-		width:30.5em;
+		width:37.875em;
 		height:6.875em;
 		position: relative;
 		z-index: 1;
