@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'GEtumblr';
-	src:url('../fonts/GEtumblr.eot');
-	src:url('../fonts/GEtumblr.eot?#iefix-fdbr6l') format('embedded-opentype'),
-		url('../fonts/GEtumblr.ttf') format('truetype'),
-		url('../fonts/GEtumblr.woff') format('woff'),
-		url('../fonts/GEtumblr.svg#GEtumblr') format('svg');
+	src:url('../fonts/GEtumblr.eot?v98oef');
+	src:url('../fonts/GEtumblr.eot?v98oef#iefix') format('embedded-opentype'),
+		url('../fonts/GEtumblr.ttf?v98oef') format('truetype'),
+		url('../fonts/GEtumblr.woff?v98oef') format('woff'),
+		url('../fonts/GEtumblr.svg?v98oef#GEtumblr') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -101,3 +101,7 @@
 .icon--youtube_sq:before {
 	content: "\e619";
 }
+.icon--digital:before {
+	content: "\e620";
+}
+
